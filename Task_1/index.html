@@ -2,82 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-        .button {
-            color: rgb(19, 17, 17);
-            font-family: Arial;
-            font-size: 1.875em;
-            font-weight: bold;
-            padding-left: 0.4em;
-            height: 4.8em;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            position: fixed;
-            top: 30%;
-            left: 40%;
-            min-width: 7.9em;
-            max-width: 14em;
-            text-align: left;
-            text-decoration: none;
-            cursor: pointer;
-            border: 0.125em solid #938475;
-            background: #FFa045;
-            background-position: 4.125em 0.25em;
-            background-repeat: no-repeat;
-            /* fallback */
-            background: -webkit-gradient(linear, left top, left bottom, from(#FFa045), to(#FFa045));
-            /* Saf4+, Chrome */
-            background: -webkit-linear-gradient(top, #FFa045, #FFa045);
-            /* Chrome 10+, Saf5.1+ */
-            background: -moz-linear-gradient(top, #FFa045, #FFa045);
-            /* FF3.6+ */
-            background: -ms-linear-gradient(top, #FFa045, #FFa045);
-            /* IE10 */
-            background: -o-linear-gradient(top, #FFa045, #FFa045);
-            /* Opera 11.10+ */
-            background: linear-gradient(top, #FFa045, #FFa045);
-            /* W3C */
-        }
-
-        .image {
-            background-color: white;
-            border-radius: 50%;
-            margin: 0.04em auto 0.375em 3.7em;
-            display: inline-block;
-            position: absolute;
-            top: 0.5em;
-            left: 0.0em;
-            height: 3.5em;
-            width: 3.6em;
-
-        }
-
-        .image:after {
-            content: "\d7";
-            font-size: 2.5em;
-            color: black;
-            position: absolute;
-            top: 0.10em;
-            left: 0.38em;
-            width: 1.25em;
-            height: 1.5em;
-        }
-
-        @media all and (max-width:30em) {
-            .button {
-                display: block;
-                margin: 0.2em auto;
-            }
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <form >
+    <form>
         <button class="button" type="submit">Delete
             <figure class="image"></figure></button>
     </form>
