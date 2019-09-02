@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <section role="search">
+        <form action="#" autocomplete="on" method="GET">
+            <input type="search" id="search_term" name="query" placeholder=Search...>
+            <section>
+                <h3>Search history</h3>
+                <div style="border:1px solid #aaa; width:400px; height:300px; overflow-y:scroll;">
+                    <ul id="searchHistory"></ul>
+                </div>
+            </section>
+        </form>
+    </section>
+
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEdbkSRLUn3h0t_FvUdx70w2ORrMfihFc&libraries=places&callback= activatePlacesSearch"
+        type="text/javascript"></script>
+
+
+</body>
+
+</html>

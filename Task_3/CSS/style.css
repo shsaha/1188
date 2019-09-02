@@ -1,0 +1,25 @@
+#search_term {
+  font-size: 3em;
+  padding: 1.25em;
+  white-space: normal;
+  word-wrap: break-word;
+  border: 0.0625em solid #aaa;
+  -moz-border-radius: 0.3125em;
+  -webkit-border-radius: 0.3125em;
+  border-radius: 0.3125em;
+  transition: all 0.1s;
+  box-shadow: 0 0 0.625em #aaa inset;
+  width: 50%;
+  box-sizing: border-box;
+  font-size: 1em;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+@media only screen and (max-width: 75em) {
+  .search {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
